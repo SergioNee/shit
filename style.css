@@ -1,0 +1,60 @@
+body {
+    background-color: grey;
+    height: 900px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url('pr.jpg');
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
+}
+
+header .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background: linear-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: 30px;
+    color: #FFF;
+}
+
+h3,
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    color: #FFF;
+}
+
+.obz {
+    padding: 15%;
+    background: #c2c2c2;
+    margin: 15%;
+}
+
+.p1 {
+    text-align: justify;
+    color: black;
+}
+
+.p2 {
+    color: aqua;
+}
